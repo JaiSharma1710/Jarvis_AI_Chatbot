@@ -1,7 +1,7 @@
 const QuestionAnswer = ({ response }) => {
   return (
     <>
-      <p className="text-white font-semibold text-xl">
+      <p className="text-white font-semibold text-xl capitalize">
         Q. {response?.question} ?
       </p>
       <p
