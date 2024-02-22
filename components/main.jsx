@@ -11,6 +11,7 @@ const Main = () => {
     inputValue,
     response,
     isLoading,
+    file,
     setInputValue,
     handleSubmit,
     handleFileUpload,
@@ -28,7 +29,7 @@ const Main = () => {
         />
 
         <div className="flex justify-evenly items-center w-[10%]">
-          <UploadFile handleFileUpload={handleFileUpload} />
+          <UploadFile handleFileUpload={handleFileUpload} file={file} />
           <div className="cursor-pointer w-1/4" onClick={handleSubmit}>
             <SubmitIcon />
           </div>

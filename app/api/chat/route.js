@@ -22,7 +22,31 @@ export async function POST(req, res) {
         },
         {
           role: "user",
-          parts: "this is about rishab gupta he is jai sharmas friend",
+          parts: "rishab gupta is one of jai sharma's friend he also works at university living",
+        },
+        {
+          role: "model",
+          parts: "thanks for the info",
+        },
+        {
+          role: "user",
+          parts: "jai sharam's best friend is rishab gupta and he also works at university living as a backend developer",
+        },
+        {
+          role: "model",
+          parts: "thanks for the info",
+        },
+        {
+          role: "user",
+          parts: "hey jarvis i am jai and i work as an associate software developer in university living",
+        },
+        {
+          role: "model",
+          parts: "thanks for the info",
+        },
+        {
+          role: "user",
+          parts: "jai sharma works in university living as a software developer",
         },
         {
           role: "model",
